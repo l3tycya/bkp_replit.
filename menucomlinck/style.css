@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #020422;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+#vermelho {
+  color: #eb1414;
+}
+
+#verde {
+  color: #11ff00;
+}
+
+#azul {
+  color: #66d9db;
+}
+
+#amarelo {
+  color: #fbff00;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background-color: #5d5d89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#texto {
+  font-size: 30px;
+}
